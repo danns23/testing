@@ -20,7 +20,7 @@ class News_model extends CI_Model {
 
   public function set_news()
   {
-    $this->load_helper('url');
+    $this->load->helper('url');
     $slug = url_title($this->input->post('title'), 'dash', TRUE);
 
     $data = array(
