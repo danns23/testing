@@ -8,7 +8,7 @@
   <input type="input" name="title" /><br />
 
   <label for="text">Text</label>
-  <textarea type="text"></textarea><br />
+  <textarea name="text"></textarea><br />
 
   <input type="submit" name="submit" value="Create news item" />
 
